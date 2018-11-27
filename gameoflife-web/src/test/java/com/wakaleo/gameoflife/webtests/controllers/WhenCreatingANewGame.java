@@ -1,4 +1,4 @@
-epackage com.wakaleo.gameoflife.webtests.controllers;
+package com.wakaleo.gameoflife.webtests.controllers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;

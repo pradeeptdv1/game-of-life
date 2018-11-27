@@ -13,7 +13,7 @@ import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
 
 
-public class WhenCreatingANewGam {
+public class WhenCreatingANewGame {
 
     GameController controller = null;
 

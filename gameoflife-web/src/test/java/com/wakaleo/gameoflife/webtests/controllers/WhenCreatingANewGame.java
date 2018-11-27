@@ -1,4 +1,4 @@
-package com.wakaleo.gameoflife.webtests.controllers;
+epackage com.wakaleo.gameoflife.webtests.controllers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -40,7 +40,7 @@ public class WhenCreatingANewGame {
         HttpServletRequest request = mock(HttpServletRequest.class);
         ModelAndView homeView = controller.firstGeneration(3, 5, request);
         assertThat((Integer) homeView.getModel().get("rows"), is(3));
-        assertThat((Integer) homView.getModel().get("columns"), is(5));
+        assertThat((Integer) homeView.getModel().get("columns"), is(5));
 
     }
 }	

@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomePageController {
     @RequestMapping("/")
     public ModelAndView index() {
-        return new ModelAndView("home");
+        return new ModelAndView("hom");
     }
 
 	// Clicking the "home" text loads the main page

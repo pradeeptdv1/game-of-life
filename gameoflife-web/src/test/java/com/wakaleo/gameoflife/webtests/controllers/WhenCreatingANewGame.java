@@ -1,12 +1,12 @@
 package com.wakaleo.gameoflife.webtests.controllers;
 
-import static org.hamcrest.MatcherAssert.assertThat;
+//import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;
 import static org.hamcrest.Matchers.nullValue;
 import static org.mockito.Mockito.mock;
 
-import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletRequest;
 
 import org.junit.Before;
 import org.junit.Test;

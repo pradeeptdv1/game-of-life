@@ -13,7 +13,7 @@ public class WhenDisplayingTheHomePage {
     public void theHomeUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
         ModelAndView homeView = controller.home();
-        assertThat(homeView.getViewName(), is("hom"));
+        assertThat(homeView.getViewName(), is("home"));
     }
 
     @Test

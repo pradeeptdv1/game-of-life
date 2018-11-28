@@ -407,10 +407,11 @@
                         </executions>
                     </plugin>
                     <plugin>
-                         <groupId>org.eclipse.jetty</groupId>
+                    <plugin>
+                        <groupId>org.eclipse.jetty</groupId>
                          <artifactId>jetty-maven-plugin</artifactId>
-                         <version>9.4.15-SNAPSHOT</version>
-                         </plugin>
+                            <version>9.4.0-SNAPSHOT</version>
+                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-site-plugin</artifactId>

@@ -416,8 +416,7 @@
                         <artifactId>maven-site-plugin</artifactId>
                         <version>2.1.1</version>
                         <dependencies>
-                            <dependency>
-                                <groupId>com.wakaleo.gameoflife</groupId>
+                            <dependency>                                <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
@@ -451,8 +450,11 @@
                             <!-- CPD options -->
                             <minimumTokens>20</minimumTokens>
                             <ignoreIdentifiers>true</ignoreIdentifiers>
-
-                        </configuration>
+                       </configuration>
+                    </plugin>
+                    <plugin>
+                     <groupId>org.codehaus.mojo</groupId>
+                     <artifactId>jetty-maven-plugin</artifactId>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>

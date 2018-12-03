@@ -121,28 +121,28 @@
         <profile>
             <id>development</id>
             <properties>
-                <webdriver.base.url>http://gameoflife:${jetty.port}</webdriver.base.url>
+                <webdriver.base.url>http://localhost:${jetty.port}</webdriver.base.url>
                 <webdriver.driver>firefox</webdriver.driver>
             </properties>
         </profile>
         <profile>
             <id>integration</id>
             <properties>
-                <webdriver.base.url>http://gameoflife:${jetty.port}</webdriver.base.url>
+                <webdriver.base.url>http://localhost:${jetty.port}</webdriver.base.url>
                 <webdriver.driver>firefox</webdriver.driver>
             </properties>
         </profile>
         <profile>
             <id>staging</id>
             <properties>
-                <webdriver.base.url>http://gameoflife:${jetty.port}</webdriver.base.url>
+                <webdriver.base.url>http://localhost:${jetty.port}</webdriver.base.url>
                 <webdriver.driver>firefox</webdriver.driver>
             </properties>
         </profile>
         <profile>
             <id>production</id>
             <properties>
-                <webdriver.base.url>http://gameoflife:${jetty.port}</webdriver.base.url>
+                <webdriver.base.url>http://localhost:${jetty.port}</webdriver.base.url>
                 <webdriver.driver>firefox</webdriver.driver>
             </properties>
         </profile>
